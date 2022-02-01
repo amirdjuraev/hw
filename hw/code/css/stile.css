@@ -1,0 +1,28 @@
+.div1 {
+    width: 80%;
+    columns: auto 300px;
+    border: 1px solid red;
+}
+
+.div2 {
+    width: 1000px;
+    columns: auto 4;
+    column-gap: 30px;
+    column-rule: dashed 3px gray;
+    border: 1px solid red;
+}
+
+
+/* предыдущее задание (.div2) сделана одновременно и как 2-е, 3-е и как 4-е задания */
+
+
+/* Задания на user-select не понял... */
+
+#a1 {
+    pointer-events: none;
+    cursor: none;
+}
+
+#a2 {
+    cursor: not-allowed;
+}
